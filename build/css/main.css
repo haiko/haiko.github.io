@@ -1,0 +1,102 @@
+/*
+Error: File to import not found or unreadable: font-awesome.
+       Load paths:
+         /home/haiko/Ontwikkeling/projecten/mrsjones/source/styles
+         /var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets
+         Compass::SpriteImporter
+        on line 7 of /home/haiko/Ontwikkeling/projecten/mrsjones/source/css/main.scss
+
+2: 
+3: /* ==========================================================================
+4:  * Imports / Includes
+5:  * ========================================================================== *\/
+6: 
+7: @import "font-awesome";           // Font Awesome icon library
+8: @import "_variables";             // Bootstrap variable overrides
+9: @import "_mixins";                // Custom mixins
+10: @import "_globals";               // Global elements
+11: @import "_bootstrap-includes";    // Bootstrap core
+12: 
+
+Backtrace:
+/home/haiko/Ontwikkeling/projecten/mrsjones/source/css/main.scss:7
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/import_node.rb:45:in `import'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/import_node.rb:28:in `imported_file'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/import_node.rb:37:in `css_import?'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/root_node.rb:20:in `render'
+/var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/engine.rb:268:in `render'
+/var/lib/gems/1.9.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/var/lib/gems/1.9.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/var/lib/gems/1.9.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/renderers/sass.rb:87:in `evaluate'
+/var/lib/gems/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/core_extensions/rendering.rb:303:in `render_individual_file'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/core_extensions/rendering.rb:181:in `_render_with_all_renderers'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/core_extensions/rendering.rb:149:in `render_template'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/sitemap/resource.rb:127:in `block in render'
+/var/lib/gems/1.9.1/gems/activesupport-4.1.10/lib/active_support/notifications.rb:161:in `instrument'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/util.rb:41:in `instrument'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/application.rb:235:in `instrument'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/sitemap/resource.rb:14:in `instrument'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/sitemap/resource.rb:100:in `render'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/core_extensions/request.rb:260:in `process_request'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/core_extensions/request.rb:210:in `block in call!'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/core_extensions/request.rb:209:in `catch'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/core_extensions/request.rb:209:in `call!'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/core_extensions/request.rb:195:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.6.1/lib/rack/urlmap.rb:66:in `block in call'
+/var/lib/gems/1.9.1/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `each'
+/var/lib/gems/1.9.1/gems/rack-1.6.1/lib/rack/urlmap.rb:50:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.6.1/lib/rack/head.rb:13:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.6.1/lib/rack/lint.rb:49:in `_call'
+/var/lib/gems/1.9.1/gems/rack-1.6.1/lib/rack/lint.rb:37:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.6.1/lib/rack/builder.rb:153:in `call'
+/var/lib/gems/1.9.1/gems/rack-test-0.6.3/lib/rack/mock_session.rb:30:in `request'
+/var/lib/gems/1.9.1/gems/rack-test-0.6.3/lib/rack/test.rb:244:in `process_request'
+/var/lib/gems/1.9.1/gems/rack-test-0.6.3/lib/rack/test.rb:58:in `get'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/cli/build.rb:255:in `render_to_file'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/cli/build.rb:221:in `build_resource'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/cli/build.rb:186:in `each'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/cli/build.rb:186:in `execute!'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/cli/build.rb:128:in `invoke!'
+/var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/actions.rb:94:in `action'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/cli/build.rb:70:in `build'
+/var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/cli.rb:72:in `method_missing'
+/var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/command.rb:29:in `run'
+/var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/command.rb:126:in `run'
+/var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/lib/middleman-core/cli.rb:20:in `start'
+/var/lib/gems/1.9.1/gems/middleman-core-3.3.12/bin/middleman:18:in `<top (required)>'
+/usr/local/bin/middleman:23:in `load'
+/usr/local/bin/middleman:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: font-awesome.\A        Load paths:\A          /home/haiko/Ontwikkeling/projecten/mrsjones/source/styles\A          /var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets\A          Compass::SpriteImporter\A         on line 7 of /home/haiko/Ontwikkeling/projecten/mrsjones/source/css/main.scss\A \A 2: \A 3: /* ==========================================================================\A 4:  * Imports / Includes\A 5:  * ========================================================================== */\A 6: \A 7: @import \"font-awesome\";           // Font Awesome icon library\A 8: @import \"_variables\";             // Bootstrap variable overrides\A 9: @import \"_mixins\";                // Custom mixins\A 10: @import \"_globals\";               // Global elements\A 11: @import \"_bootstrap-includes\";    // Bootstrap core\A 12: "; }
